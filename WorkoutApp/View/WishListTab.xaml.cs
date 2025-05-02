@@ -23,10 +23,16 @@ namespace WorkoutApp.View
 
         private void LoadProducts()
         {
+<<<<<<< HEAD
+            //WishlistItemRepository wishlistItemRepository = new WishlistItemRepository();
+            ProductRepository productRepository = new ProductRepository();
+            productRepository.LoadData();
+=======
 
             //WishlistItemRepository wishlistItemRepository = new WishlistItemRepository();
             //ProductRepository productRepository = new ProductRepository();
             //productRepository.LoadData();
+>>>>>>> 44a02acc1d08c122fabac68fdc0a3764375e0dcd
 
             //var WishListItems = wishlistItemRepository.GetAll();
 
